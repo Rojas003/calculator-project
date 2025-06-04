@@ -1,3 +1,4 @@
+
 name: Python application
 
 on:
@@ -23,7 +24,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
 
-    -- name: Run tests
-  run: |
-    PYTHONPATH=. pytest
-
+    - name: Run tests
+      run: |
+        PYTHONPATH=. pytest
