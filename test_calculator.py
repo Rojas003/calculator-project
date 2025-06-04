@@ -1,4 +1,3 @@
-# trigger workflow
 import pytest
 from calculator.calculator import add, subtract, multiply, divide
 
