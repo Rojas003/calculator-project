@@ -1,6 +1,6 @@
 # trigger workflow
 import pytest
-import calculator
+from calculator import calculator
 
 def test_add():
     assert calculator.add(2, 3) == 5
